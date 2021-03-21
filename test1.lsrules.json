@@ -1,0 +1,1469 @@
+{
+  "description" : "",
+  "name" : "test1",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "direction" : "incoming",
+      "disabled" : true,
+      "modificationDate" : 1612806096.645617,
+      "owner" : "system",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "direction" : "incoming",
+      "disabled" : true,
+      "modificationDate" : 1612806093.5907679,
+      "owner" : "me",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "direction" : "incoming",
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "any",
+      "protocol" : "icmp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "direction" : "incoming",
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "me",
+      "process" : "any",
+      "protocol" : "icmp",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612805432.041549,
+      "modificationDate" : 1612805432.041549,
+      "owner" : "me",
+      "process" : "any",
+      "remote-addresses" : "::-ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613215779.564913,
+      "modificationDate" : 1613215779.564913,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "facebook.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613214795.2501879,
+      "modificationDate" : 1613215654.90451,
+      "owner" : "any",
+      "process" : "any",
+      "remote-domains" : "twitter.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "any",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "any",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "icloud.com",
+        "icloud-content.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "any",
+      "remote-domains" : [
+        "apple.com",
+        "cdn-apple.com",
+        "mzstatic.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : [
+        "apple.com",
+        "cdn-apple.com",
+        "mzstatic.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "me",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612805305.6900101,
+      "modificationDate" : 1612805305.6900101,
+      "owner" : "me",
+      "ports" : "53",
+      "process" : "any",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390250.9758639,
+      "modificationDate" : 1612390250.9758639,
+      "owner" : "me",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613382685.912291,
+      "modificationDate" : 1613382685.912291,
+      "owner" : "me",
+      "process" : "\/Applications\/Adobe Acrobat Reader DC.app\/Contents\/Helpers\/AdobeResourceSynchronizer.app\/Contents\/MacOS\/AdobeResourceSynchronizer",
+      "remote-domains" : "adobe.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612907273.3496661,
+      "modificationDate" : 1612907273.3496661,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Adobe\/ARMDC\/Application\/Acrobat Update Helper.app\/Contents\/MacOS\/Acrobat Update Helper",
+      "remote-domains" : "adobe.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612991457.6922312,
+      "modificationDate" : 1612991457.6922312,
+      "owner" : "me",
+      "process" : "\/Applications\/Adobe Acrobat Reader DC.app\/Contents\/MacOS\/AdobeReader",
+      "remote-domains" : "adobe.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612991417.2417431,
+      "modificationDate" : 1612991417.2417431,
+      "owner" : "me",
+      "process" : "\/Applications\/Adobe Acrobat Reader DC.app\/Contents\/MacOS\/AdobeReader",
+      "remote-domains" : "adobelogin.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613182155.9967852,
+      "modificationDate" : 1613182155.9967852,
+      "owner" : "me",
+      "process" : "\/Users\/chrissuchar\/Library\/Application Support\/Adobe\/com.adobe.ARMDCHelper\/Adobe Acrobat Updater.app\/Contents\/MacOS\/Acrobat Updater",
+      "remote-domains" : "adobe.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/airportd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390209.4962091,
+      "modificationDate" : 1612390209.4962091,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/ApplePushService.framework\/apsd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289228.869549,
+      "modificationDate" : 1612289228.869549,
+      "owner" : "me",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/bootpd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390217.100033,
+      "modificationDate" : 1612390217.100033,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CloudKitDaemon.framework\/Support\/cloudd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612866418.736408,
+      "modificationDate" : 1612866418.736408,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote" : "any",
+      "via" : "\/Users\/chrissuchar\/.nvm\/versions\/node\/v15.8.0\/bin\/node"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612866409.249692,
+      "modificationDate" : 1612866409.249692,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/Frameworks\/Code Helper (Renderer).app\/Contents\/MacOS\/Code Helper (Renderer)",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "direction" : "incoming",
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "ports" : "68",
+      "process" : "\/usr\/libexec\/configd",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/configd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390236.535177,
+      "modificationDate" : 1612390236.535177,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/FamilyCircle.framework\/Versions\/A\/Resources\/familycircled",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612289334.6036439,
+      "modificationDate" : 1612289334.6036439,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-addresses" : "35.186.227.140"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612289351.177943,
+      "modificationDate" : 1612289351.177943,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "getpocket.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612289353.835094,
+      "modificationDate" : 1612289353.835094,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "ghostery.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612289352.8205662,
+      "modificationDate" : 1612289352.8205662,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "ghostery.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289347.6888161,
+      "modificationDate" : 1612289347.6888161,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "adblockplus.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613427619.833308,
+      "modificationDate" : 1613427619.833308,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "daringfireball.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613427772.9879432,
+      "modificationDate" : 1613427772.9879432,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "factset.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613427765.0471392,
+      "modificationDate" : 1613427765.0471392,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "factsetdigitalsolutions.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613427592.5025768,
+      "modificationDate" : 1613427592.5025768,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "kottke.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613518447.4263029,
+      "modificationDate" : 1613518447.4263029,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "krebsonsecurity.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613518296.728899,
+      "modificationDate" : 1613518296.728899,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "macstories.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289221.4604869,
+      "modificationDate" : 1612289221.4604869,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "mozilla.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613419449.1077499,
+      "modificationDate" : 1613419449.1077499,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "mozilla.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613470651.921046,
+      "modificationDate" : 1613470651.921046,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "mozilla.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613427682.9486752,
+      "modificationDate" : 1613427682.9486752,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "nytimes.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613518591.9754992,
+      "modificationDate" : 1613518591.9754992,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "sixcolors.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289167.3874869,
+      "modificationDate" : 1612289167.3874869,
+      "owner" : "me",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "remote-domains" : "firefox.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390233.963392,
+      "modificationDate" : 1612390233.963392,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/fmfd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284927.9507132,
+      "modificationDate" : 1612284927.9507132,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612883135.830833,
+      "modificationDate" : 1612883135.830833,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289338.8798289,
+      "modificationDate" : 1612289338.8798289,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/Frameworks\/GitHub Desktop Helper (Renderer).app\/Contents\/MacOS\/GitHub Desktop Helper (Renderer)",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613301599.380203,
+      "direction" : "incoming",
+      "modificationDate" : 1613301599.380203,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613166040.78653,
+      "modificationDate" : 1613166040.78653,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "142.250.64.78"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165625.217504,
+      "modificationDate" : 1613165625.217504,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.10.2"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165631.334075,
+      "modificationDate" : 1613165631.334075,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.11.2"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613301817.4393768,
+      "modificationDate" : 1613301817.4393768,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.12.226"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613215352.178973,
+      "modificationDate" : 1613215352.178973,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.13.226"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613301836.119854,
+      "modificationDate" : 1613301836.119854,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.15.78"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613182522.4872642,
+      "modificationDate" : 1613182522.4872642,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.164.174"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613301800.216269,
+      "modificationDate" : 1613301800.216269,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.5.226"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613215102.7180572,
+      "modificationDate" : 1613215102.7180572,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "172.217.9.194"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284887.9415622,
+      "modificationDate" : 1612284887.9415622,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-addresses" : "239.255.255.250"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284913.5528269,
+      "disabled" : true,
+      "modificationDate" : 1612780998.0583448,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "google.com",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/88.0.4324.96\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613182546.863883,
+      "modificationDate" : 1613182546.863883,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "amazon-adsystem.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165656.6431971,
+      "modificationDate" : 1613165656.6431971,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "buysellads.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165666.681838,
+      "modificationDate" : 1613165666.681838,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "chartbeat.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165041.171766,
+      "modificationDate" : 1613165041.171766,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "consensu.org"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165072.2698989,
+      "modificationDate" : 1613165072.2698989,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "doubleclick.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165643.314481,
+      "modificationDate" : 1613165643.314481,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "facebook.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165647.2907491,
+      "modificationDate" : 1613165647.2907491,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "facebook.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165076.5275888,
+      "modificationDate" : 1613165076.5275888,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "googleadservices.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613165662.0783439,
+      "modificationDate" : 1613165662.0783439,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "quantserve.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613182288.294246,
+      "modificationDate" : 1613182288.294246,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "scorecardresearch.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613728953.6710019,
+      "modificationDate" : 1613728953.6710019,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "amazon.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613486849.390079,
+      "modificationDate" : 1613486849.390079,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "audacityteam.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613483226.2410159,
+      "modificationDate" : 1613483226.2410159,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "berklee.edu"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613517580.773592,
+      "modificationDate" : 1613517580.773592,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "blueprintjs.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613417941.749635,
+      "modificationDate" : 1613417941.749635,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "expressjs.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613517858.830889,
+      "modificationDate" : 1613517858.830889,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613417946.5444732,
+      "modificationDate" : 1613417946.5444732,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "github.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613517854.9698429,
+      "modificationDate" : 1613517854.9698429,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "githubassets.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613728957.877177,
+      "modificationDate" : 1613728957.877177,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "media-amazon.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613517251.3855891,
+      "modificationDate" : 1613517251.3855891,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "netflix.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613517259.6858358,
+      "modificationDate" : 1613517259.6858358,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "nflxext.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613517287.32286,
+      "modificationDate" : 1613517287.32286,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "nflximg.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613517283.4018841,
+      "modificationDate" : 1613517283.4018841,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "nflxso.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613735722.2490659,
+      "modificationDate" : 1613735722.2490659,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "nintendo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613728962.0056119,
+      "modificationDate" : 1613728962.0056119,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "ssl-images-amazon.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613215052.7920761,
+      "modificationDate" : 1613215052.7920761,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "wikipedia.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613164892.7135251,
+      "modificationDate" : 1613164892.7135251,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289343.685014,
+      "modificationDate" : 1612289343.685014,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289341.736059,
+      "modificationDate" : 1612289341.736059,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289357.960036,
+      "modificationDate" : 1612780984.587126,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "obdev.at"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612290164.4499059,
+      "disabled" : true,
+      "modificationDate" : 1612780962.907866,
+      "owner" : "me",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote" : "any",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/88.0.4324.96\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612892533.6761479,
+      "modificationDate" : 1612892533.6761479,
+      "owner" : "me",
+      "process" : "\/Users\/chrissuchar\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "remote-domains" : "google.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613208166.3830009,
+      "modificationDate" : 1613209357.8871341,
+      "owner" : "me",
+      "process" : "\/Applications\/iStat Menus.app\/Contents\/MacOS\/iStat Menus",
+      "remote-domains" : "paddle.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613208159.0143719,
+      "modificationDate" : 1613209383.1923079,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/iStat Menus 6\/iStat Menus Status.app\/Contents\/MacOS\/iStat Menus Status",
+      "remote-domains" : "istatmenus.app"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613382694.1546531,
+      "modificationDate" : 1613382694.1546531,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/iStat Menus 6\/iStatMenusAgent.app\/Contents\/MacOS\/iStatMenusAgent",
+      "remote-domains" : "istatmenus.app"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612991402.11465,
+      "modificationDate" : 1612991402.11465,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/iTunesCloud.framework\/Support\/itunescloudd",
+      "remote-addresses" : "23.215.130.34"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613419346.2039351,
+      "modificationDate" : 1613419346.2039351,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/iTunesCloud.framework\/Support\/itunescloudd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284904.7187939,
+      "modificationDate" : 1612284904.7187939,
+      "owner" : "me",
+      "process" : "\/Applications\/Little Snitch.app\/Contents\/Components\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612898830.775445,
+      "modificationDate" : 1612898830.775445,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Logitech.localized\/Logitech Options.localized\/LogiMgrDaemon.app\/Contents\/MacOS\/LogiMgrDaemon",
+      "remote-domains" : "logitech.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284666.587322,
+      "modificationDate" : 1612284666.587322,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "remote-addresses" : "172.253.63.108"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284902.0193748,
+      "modificationDate" : 1612284902.0193748,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613164868.7009459,
+      "direction" : "incoming",
+      "modificationDate" : 1613164868.7009459,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "172.20.10.1"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613382608.934058,
+      "direction" : "incoming",
+      "modificationDate" : 1613382608.934058,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.126"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613415344.378772,
+      "direction" : "incoming",
+      "modificationDate" : 1613415344.378772,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.136"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613415707.8607202,
+      "direction" : "incoming",
+      "modificationDate" : 1613415707.8607202,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.181"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613415370.600904,
+      "direction" : "incoming",
+      "modificationDate" : 1613415370.600904,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.187"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613415365.5077879,
+      "direction" : "incoming",
+      "modificationDate" : 1613415365.5077879,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.197"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613470243.1228681,
+      "direction" : "incoming",
+      "modificationDate" : 1613470243.1228681,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.210"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613415503.0265489,
+      "direction" : "incoming",
+      "modificationDate" : 1613415503.0265489,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.213"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613415396.140907,
+      "direction" : "incoming",
+      "modificationDate" : 1613415396.140907,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.214"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613426036.6608381,
+      "direction" : "incoming",
+      "modificationDate" : 1613426036.6608381,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.225"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613417651.48438,
+      "direction" : "incoming",
+      "modificationDate" : 1613417651.48438,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.229"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613426044.577642,
+      "direction" : "incoming",
+      "modificationDate" : 1613426044.577642,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.230"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613420010.307543,
+      "direction" : "incoming",
+      "modificationDate" : 1613420010.307543,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.29"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613417639.520468,
+      "direction" : "incoming",
+      "modificationDate" : 1613417639.520468,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.31"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613382594.9618969,
+      "direction" : "incoming",
+      "modificationDate" : 1613382594.9618969,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "fe80::1"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613167953.589231,
+      "direction" : "incoming",
+      "modificationDate" : 1613167953.589231,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "fe80::102f:3ffb:ec7e:bc7d"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613382605.046165,
+      "direction" : "incoming",
+      "modificationDate" : 1613382605.046165,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "fe80::1c00:8aff:fe2e:3e70"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613382600.0155721,
+      "direction" : "incoming",
+      "modificationDate" : 1613382600.0155721,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "fe80::1c00:8aff:fe2e:3e71"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613164886.7107191,
+      "direction" : "incoming",
+      "modificationDate" : 1613164886.7107191,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "fe80::cc5:34b1:c106:b4"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613415352.0915,
+      "direction" : "incoming",
+      "modificationDate" : 1613415352.0915,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.212"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613415359.7458739,
+      "direction" : "incoming",
+      "modificationDate" : 1613415359.7458739,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-addresses" : "192.168.20.233"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613415317.805306,
+      "direction" : "incoming",
+      "modificationDate" : 1613415317.805306,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote-hosts" : "Apple-TV.local"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613486629.6179981,
+      "direction" : "incoming",
+      "modificationDate" : 1613486629.6179981,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponderHelper",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612893289.249665,
+      "modificationDate" : 1612893289.249665,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+      "remote-domains" : "azurewebsites.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612893276.751462,
+      "modificationDate" : 1612893276.751462,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+      "remote-domains" : "live.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612893284.5664721,
+      "modificationDate" : 1612893284.5664721,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+      "remote-domains" : "live.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612893262.0228019,
+      "modificationDate" : 1612893262.0228019,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+      "remote-domains" : "microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612893272.3894629,
+      "modificationDate" : 1612893272.3894629,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+      "remote-domains" : "office.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612893303.373898,
+      "modificationDate" : 1612893303.373898,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+      "remote-domains" : "onedrive.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390032.472508,
+      "modificationDate" : 1612390032.472508,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft OneNote.app\/Contents\/MacOS\/Microsoft OneNote",
+      "remote-domains" : "microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390030.4202909,
+      "modificationDate" : 1612390030.4202909,
+      "owner" : "me",
+      "process" : "\/Applications\/Microsoft OneNote.app\/Contents\/MacOS\/Microsoft OneNote",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612883232.884778,
+      "modificationDate" : 1612883232.884778,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
+      "remote-domains" : "akamaized.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612893267.736521,
+      "modificationDate" : 1612893267.736521,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
+      "remote-domains" : "azurewebsites.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612883228.627301,
+      "modificationDate" : 1612883228.627301,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
+      "remote-domains" : "cloudapp.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612883220.596879,
+      "modificationDate" : 1612883220.596879,
+      "owner" : "me",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
+      "remote-domains" : "microsoft.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1612991428.094826,
+      "direction" : "incoming",
+      "modificationDate" : 1612991428.094826,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/netbiosd",
+      "remote-addresses" : "172.20.10.2"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613036391.997103,
+      "direction" : "incoming",
+      "modificationDate" : 1613036391.997103,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/netbiosd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613469271.6565208,
+      "modificationDate" : 1613469271.6565208,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Notes.app\/Contents\/MacOS\/Notes",
+      "remote-addresses" : "17.42.251.32"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613469276.1306529,
+      "modificationDate" : 1613469276.1306529,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Notes.app\/Contents\/MacOS\/Notes",
+      "remote-addresses" : "17.42.251.56"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613164818.125577,
+      "modificationDate" : 1613164818.125577,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Notes.app\/Contents\/MacOS\/Notes",
+      "remote-domains" : "me.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390247.8897901,
+      "modificationDate" : 1612390247.8897901,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/nsurlsessiond",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/ocspd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284680.5091071,
+      "modificationDate" : 1612284680.5091071,
+      "owner" : "me",
+      "process" : "\/Applications\/OneDrive.app\/Contents\/MacOS\/OneDrive",
+      "remote-domains" : "microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284906.2258749,
+      "modificationDate" : 1612284906.2258749,
+      "owner" : "me",
+      "process" : "\/Applications\/OneDrive.app\/Contents\/MacOS\/OneDrive",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613426070.015389,
+      "direction" : "incoming",
+      "modificationDate" : 1613426070.015389,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/rapportd",
+      "remote-addresses" : "192.168.20.136"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613426057.1606231,
+      "direction" : "incoming",
+      "modificationDate" : 1613426057.1606231,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/rapportd",
+      "remote-addresses" : "192.168.20.214"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613426064.2979832,
+      "direction" : "incoming",
+      "modificationDate" : 1613426064.2979832,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/rapportd",
+      "remote-addresses" : "192.168.20.212"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613496525.8093472,
+      "direction" : "incoming",
+      "modificationDate" : 1613496525.8093472,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/rapportd",
+      "remote-hosts" : "Apple-TV.local"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613164827.466325,
+      "modificationDate" : 1613164827.466325,
+      "owner" : "me",
+      "process" : "\/Applications\/Robo 3T.app\/Contents\/MacOS\/Robo 3T",
+      "remote-domains" : "robomongo.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284924.5547791,
+      "modificationDate" : 1612284924.5547791,
+      "owner" : "me",
+      "process" : "\/Applications\/Robo 3T.app\/Contents\/MacOS\/Robo 3T",
+      "remote-domains" : "3t.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613164838.2118239,
+      "modificationDate" : 1613164838.2118239,
+      "owner" : "me",
+      "process" : "\/Applications\/Robo 3T.app\/Contents\/MacOS\/Robo 3T",
+      "remote-domains" : "studio3t.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/bin\/sntp",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289480.1601779,
+      "modificationDate" : 1612289480.1601779,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/MobileSoftwareUpdate.framework\/Support\/softwareupdated",
+      "remote-addresses" : "17.111.103.65"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612907215.077168,
+      "modificationDate" : 1612907215.077168,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/MobileSoftwareUpdate.framework\/Support\/softwareupdated",
+      "remote-addresses" : "17.171.47.25"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289490.287941,
+      "modificationDate" : 1612289490.287941,
+      "owner" : "system",
+      "process" : "\/System\/Library\/PrivateFrameworks\/MobileSoftwareUpdate.framework\/Support\/softwareupdated",
+      "remote-addresses" : "17.171.47.65"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613164922.7248459,
+      "modificationDate" : 1613164922.7248459,
+      "owner" : "me",
+      "process" : "\/Applications\/OneDrive.app\/Contents\/StandaloneUpdater.app\/Contents\/MacOS\/OneDriveStandaloneUpdater",
+      "remote-domains" : "live.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613164955.3242841,
+      "modificationDate" : 1613164955.3242841,
+      "owner" : "me",
+      "process" : "\/Applications\/OneDrive.app\/Contents\/StandaloneUpdater.app\/Contents\/MacOS\/OneDriveStandaloneUpdater",
+      "remote-domains" : "microsoft.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613182148.2713909,
+      "modificationDate" : 1613182148.2713909,
+      "owner" : "me",
+      "process" : "\/Applications\/OneDrive.app\/Contents\/StandaloneUpdater.app\/Contents\/MacOS\/OneDriveStandaloneUpdater",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612882220.2702231,
+      "modificationDate" : 1612882220.2702231,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/MacOS\/Stocks",
+      "remote-domains" : "yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612289234.1366429,
+      "modificationDate" : 1612289234.1366429,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/PlugIns\/StocksWidget.appex\/Contents\/MacOS\/StocksWidget",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/syspolicyd",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.apple-cloudkit.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613382279.6173801,
+      "modificationDate" : 1613382279.6173801,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Terminal.app\/Contents\/MacOS\/Terminal",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/libexec\/timed",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390246.399075,
+      "modificationDate" : 1612390246.399075,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/timed",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612284561.5004969,
+      "modificationDate" : 1612284561.5004969,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612866344.9061821,
+      "modificationDate" : 1612866344.9061821,
+      "owner" : "me",
+      "process" : "\/Applications\/Visual Studio Code.app\/Contents\/MacOS\/Electron",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1612390194.2345061,
+      "modificationDate" : 1612390194.2345061,
+      "owner" : "me",
+      "process" : "\/Applications\/WireGuard.app\/Contents\/PlugIns\/WireGuardNetworkExtension.appex\/Contents\/MacOS\/WireGuardNetworkExtension",
+      "remote" : "any"
+    }
+  ]
+}
